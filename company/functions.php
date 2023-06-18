@@ -57,40 +57,5 @@ function my_http_api_debug($response, $type, $class, $args, $url) {
 add_filter('https_ssl_verify', '__return_false');
 
 
-function register_primary_menu() {
-    register_nav_menus(
-        array(
-            'primary-menu' => __( 'Primary Menu', 'shop.local' ),
-        )
-    );
-}
-add_action( 'after_setup_theme', 'register_primary_menu' );
-
-
-add_theme_support( 'woocommerce' );
-
-
-// Register a custom walker class for submenu
-class Submenu_Walker extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth = 0, $args = array()) {
-        $indent = str_repeat("\t", $depth);
-        $output .= "\n$indent<ul class=\"dropdown-menu bg-primary rounded-0 border-0 m-0\">\n";
-    }
-
-    function end_lvl(&$output, $depth = 0, $args = array()) {
-        $indent = str_repeat("\t", $depth);
-        $output .= "$indent</ul>\n";
-    }
-}
-
-// Modify the primary menu to include submenu
-function add_submenu_to_primary_menu($args) {
-    if (has_nav_menu('primary-menu')) {
-        $args['walker'] = new Submenu_Walker();
-    }
-    return $args;
-}
-add_filter('wp_nav_menu_args', 'add_submenu_to_primary_menu');
-
 ?>
 

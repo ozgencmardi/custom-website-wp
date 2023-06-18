@@ -28,7 +28,7 @@ Template Name: Home
                             <div class="caption-content">
                                 <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
                                 <span class="animated fadeInDown">Clean and Professional one page Template</span>
-                                <a href="https://themefisher.com/products/blue-free-onepage-responsive-corporate-template/" target="_blank" class="btn btn-blue btn-effect">Download Now</a>
+                                <a href="#" target="_blank" class="btn btn-blue btn-effect">Download Now</a>
                             </div>
                         </div>
 						
@@ -116,7 +116,7 @@ Template Name: Home
 							<div class="welcome-block">
 								<h3>Welcome To Our Site</h3>								
 						     	 <div class="message-body">
-									<img src="img/member-1.jpg" class="pull-left" alt="member">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/member-1.jpg" class="pull-left" alt="member">
 						       		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 						     	 </div>
 						       	<a href="#" class="btn btn-border btn-effect pull-right">Read More</a>
@@ -197,73 +197,73 @@ Template Name: Home
 
 						<ul class="project-wrapper wow animated fadeInUp">
 							<li class="portfolio-item">
-								<img src="img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="img/portfolio/item.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item.jpg"><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Wall street" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 								<figcaption class="mask">
 									<h3>Wall street</h3>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>
 									<li><a href=""><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
@@ -286,21 +286,21 @@ Template Name: Home
 							
 							<div id="testimonial" class=" wow animated fadeInUp">
 								<div class="testimonial-item text-center">
-									<img src="img/member-1.jpg" alt="Our Clients">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/member-1.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Katty Flower</span>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 									</div>
 								</div>
 								<div class="testimonial-item text-center">
-									<img src="img/member-1.jpg" alt="Our Clients">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/member-1.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Katty Flower</span>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 									</div>
 								</div>
 								<div class="testimonial-item text-center">
-									<img src="img/member-1.jpg" alt="Our Clients">
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/member-1.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Katty Flower</span>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
