@@ -69,7 +69,7 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <?php
                         wp_nav_menu(array(
-                            'theme_location' => 'primary-menu', // Replace 'primary' with the menu location you assigned in Step 1
+                            'theme_location' => 'primary-menu',
                             'menu_class' => 'nav navbar-nav',
                             'container' => false,
                         ));

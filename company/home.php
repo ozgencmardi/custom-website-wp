@@ -328,7 +328,7 @@ Template Name: Home
 							<div class="price-table text-center">
 								<span>Silver</span>
 								<div class="value">
-									<span>$</span>
+									<span>£</span>
 									<span>24,35</span><br>
 									<span>month</span>
 								</div>
@@ -346,7 +346,7 @@ Template Name: Home
 							<div class="price-table featured text-center">
 								<span>Gold</span>
 								<div class="value">
-									<span>$</span>
+									<span>£</span>
 									<span>50,00</span><br>
 									<span>month</span>
 								</div>
@@ -364,7 +364,7 @@ Template Name: Home
 							<div class="price-table text-center">
 								<span>Diamond</span>
 								<div class="value">
-									<span>$</span>
+									<span>£</span>
 									<span>123,12</span><br>
 									<span>month</span>
 								</div>
@@ -418,22 +418,9 @@ Template Name: Home
 						
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
-								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Your Name...">
-								</div>
-								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Your Email...">
-								</div>
-								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Subject...">
-								</div>
-								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Messages..."></textarea>
-								</div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
-							</form>
-						</div>
+                            <?php echo do_shortcode('[contact-form-7 id="20" title="Contact form 1"]'); ?>
+                        </div>
+
 						
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
@@ -448,10 +435,6 @@ Template Name: Home
 				</div>
 			</section>
 			<!-- end Contact section -->
-			
-			<section id="google-map">
-				<div id="map-canvas" class="wow animated fadeInUp"></div>
-			</section>
 		
 		</main>
 
