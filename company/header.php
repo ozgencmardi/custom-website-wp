@@ -40,7 +40,8 @@
         <script src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/js/modernizr-2.6.2.min.js"></script>
 
     </head>
-	
+
+    
     <body id="body">
 
         <!--
@@ -57,12 +58,16 @@
 						<span class="icon-bar"></span>
                     </button>
 					<!-- /responsive nav button -->
-					
-					<!-- logo -->
-					<h1 class="navbar-brand">
-						<a href="#body">Blue</a>
-					</h1>
-					<!-- /logo -->
+
+                    <!-- logo -->
+                    <div class="logo">
+                        <?php $logo = get_field('logo_wedelo'); ?>
+                        <?php if ($logo) : ?>
+                            <a href="#"><img src="<?php echo $logo; ?>" alt=""></a>
+                        <?php endif; ?>
+                    </div>
+                    <!-- /logo -->
+
                 </div>
 
 				<!-- main nav -->

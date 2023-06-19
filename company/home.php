@@ -6,8 +6,23 @@ Template Name: Home
 
 <?php get_header(); 
 
-//$ad_1_title = get_field('ad_1_title');
+$slider_1_image = get_field('slider_1_image');
+$slider_1_title = get_field('slider_1_title');
+$slider_1_text = get_field('slider_1_text');
+$slider_1_button_text = get_field('slider_1_button_text');
+$slider_1_button_url = get_field('slider_1_button_url');
 
+$slider_2_image = get_field('slider_2_image');
+$slider_2_title = get_field('slider_2_title');
+$slider_2_text = get_field('slider_2_text');
+$slider_2_button_text = get_field('slider_2_button_text');
+$slider_2_button_url = get_field('slider_2_button_url');
+
+$slider_3_image = get_field('slider_3_image');
+$slider_3_title = get_field('slider_3_title');
+$slider_3_text = get_field('slider_3_text');
+$slider_3_button_text = get_field('slider_3_button_text');
+$slider_3_button_url = get_field('slider_3_button_url');
 
 ?>
 
@@ -20,45 +35,45 @@ Template Name: Home
 
 				<div class="sl-slider">
 				
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+				<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-						<div class="bg-img bg-img-1"></div>
-
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
-                                <span class="animated fadeInDown">Clean and Professional one page Template</span>
-                                <a href="#" target="_blank" class="btn btn-blue btn-effect">Download Now</a>
-                            </div>
-                        </div>
-						
+					<div class="bg-img" style="background-image: url(<?php echo esc_url($slider_1_image['url']); ?>); "><div class="overlay"></div></div>
+					
+					<div class="slide-caption">
+						<div class="caption-content">
+							<h2 class="animated fadeInDown"><?php echo $slider_1_title; ?></h2>
+							<span class="animated fadeInDown"><?php echo $slider_1_text; ?></span>
+							<a href="<?php echo $slider_1_button_url; ?>" target="_blank" class="btn btn-blue btn-effect"><?php echo $slider_1_button_text; ?></a>
+						</div>
 					</div>
+				</div>
+
 					
 					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-					
-						<div class="bg-img bg-img-2"></div>
+
+						<div class="bg-img" style="background-image: url(<?php echo esc_url($slider_2_image['url']); ?>);"><div class="overlay"></div></div>
+
 						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2>BLUE Onepage HTML5 Template</h2>
-                                <span>Clean and Professional one page Template</span>
-                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
-                            </div>
-                        </div>
-						
+							<div class="caption-content">
+								<h2 class="animated fadeInDown"><?php echo $slider_2_title; ?></h2>
+								<span class="animated fadeInDown"><?php echo $slider_2_text; ?></span>
+								<a href="<?php echo $slider_2_button_url; ?>" target="_blank" class="btn btn-blue btn-effect"><?php echo $slider_2_button_text; ?></a>
+							</div>
+						</div>
 					</div>
 					
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						
-						<div class="bg-img bg-img-3"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2>BLUE Onepage HTML5 Template</h2>
-                                <span>Clean and Professional one page Template</span>
-                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
-                            </div>
-                        </div>
 
+					<div class="bg-img" style="background-image: url(<?php echo esc_url($slider_3_image['url']); ?>);"><div class="overlay"></div></div>
+
+					<div class="slide-caption">
+						<div class="caption-content">
+							<h2 class="animated fadeInDown"><?php echo $slider_3_title; ?></h2>
+							<span class="animated fadeInDown"><?php echo $slider_3_text; ?></span>
+							<a href="<?php echo $slider_3_button_url; ?>" target="_blank" class="btn btn-blue btn-effect"><?php echo $slider_3_button_text; ?></a>
+						</div>
 					</div>
+				</div>
 
 				</div><!-- /sl-slider -->
 

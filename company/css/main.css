@@ -272,6 +272,14 @@ main > section {
 /*	Header
 /* ==========================================*/
 
+.logo {
+    margin-top: -10px;
+}
+
+.logo img {
+    width: 200px;
+}
+
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
        -moz-transition: all 0.8s ease 0s;
@@ -281,11 +289,11 @@ main > section {
 
     background-color: rgba(0,0,0,.4);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    padding: 5px 0;
+    padding: 15px 0;
 }
 
 #navigation.animated-header {
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
 }
 
 h1.navbar-brand {
@@ -377,6 +385,19 @@ h1.navbar-brand {
 .caption-content p {
     font-size: 29px;
     margin-bottom: 65px;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* The duplicate parts/slices */
